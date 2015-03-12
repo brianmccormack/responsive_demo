@@ -1,0 +1,76 @@
+body {
+	font-size: 100%;
+	/* base font size 16px */
+	background-color: white;
+}
+
+@media (min-width: 20em) { 
+/* 320/16 = 20 */
+	
+	body {
+		background-color: blue;
+	}
+}
+
+@media (min-width: 30em) { 
+/* 480/16 = 30 */
+
+	body {
+		background-color: green;
+	}
+}
+
+@media (min-width: 37.5em) { 
+/* 600/16 = 37.5 */
+
+	body {
+		background-color: red;
+	}
+}
+
+.headline {
+	font-size: 1em; /* 16px */
+}
+
+.first-headline,
+.second-headline,
+.third-headline {
+	display: block;
+}
+
+.second-headline {	
+	font-size: 0.5em; /* 8px */
+}
+
+.thrid-headline {
+	font-size: 0.25em; /* 4px */
+}
+
+	@media (min-width: 20em) { 
+	/* 320/16 = 20 */
+		
+		.headline {
+			font-size: 2em; /* 32px */
+		}
+	}
+
+	@media (min-width: 30em) { 
+	/* 480/16 = 30 */
+
+		.headline {
+			font-size: 3em; /* 48px */
+		}
+	}
+
+	@media (min-width: 37.5em) { 
+	/* 600/16 = 37.5 */
+
+		.headline {
+			font-size: 4em; /* 64px */
+		}
+
+		.third-headline {
+			/* 120 / 64 = 1.875 */
+			font-size: 1.875em; /* 120px */
+		}
+	}

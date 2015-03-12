@@ -30,6 +30,7 @@ body {
 
 .headline {
 	font-size: 1em; /* 16px */
+	color: white;
 }
 
 .first-headline,
@@ -42,7 +43,7 @@ body {
 	font-size: 0.5em; /* 8px */
 }
 
-.thrid-headline {
+.third-headline {
 	font-size: 0.25em; /* 4px */
 }
 
